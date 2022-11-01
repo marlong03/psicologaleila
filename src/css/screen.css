@@ -1,0 +1,206 @@
+@media (max-width:1000px) {
+    #containerFrase1{
+        display: block;
+    }
+    .container__video video{
+        width: 380px !important;
+    }
+    .banner .container__frase h1{
+        font-size: 40px;
+        text-align: center;
+        margin:0 auto;
+        width: 90%;
+    }
+    .container__frase {
+        min-width: 45%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .container__info--banner{
+       margin:0 50px 0 0 !important;
+       justify-content:center;
+    }
+    .paragraph__cards{
+        margin: 30px auto 0 !important;
+        width: 80% !important;
+        font-size: 22px !important;
+    }
+    .card{
+        margin:15px 25px !important ;
+    }
+}
+@media (max-width:836px){
+    .section__text--important{
+        border-left: 0px solid transparent !important;
+        border-bottom: 17px solid var(--pink) !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    header section{
+        margin:20px 30px !important;
+    }
+    header .container__img img{
+        width: 60px !important;
+    }
+    header .container__nav ul li img{
+        width: 50px !important;
+        cursor: pointer;
+        border:2px solid white;
+        border-radius: 100%;
+        margin:2px 15px;
+        box-shadow: 0px 0px 3px gray;
+    }
+    header .container__nav ul{
+        display: flex;
+        padding:0 !important;
+        border-radius: 100px;
+    }
+    .container__frase h1{
+        margin-top: 50px !important;
+    }
+    .container__video--media{
+
+    }
+    .container__video--media video{
+        min-width: 350px;
+        width: 70%;
+        margin: 30px 0 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px gray;
+        border: 3px solid white;
+        display:  inline !important;
+    }
+    .container__video {
+        display: none !important;
+    }
+    #btnContactameBanner{
+        display: none !important;
+    }
+    #btnConocemeBanner{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__info--banner{
+        margin:0 auto !important;
+        justify-content:center;
+        min-width:350px !important;
+     }
+     .container__frase--contactame p {
+        min-width: 100% !important;
+     }
+     .container__frase{
+        max-width:100% !important;
+     }
+     .card{
+        width: 40% !important;
+        margin:15px !important;
+    }
+    .container__personaje .container__img{
+        background-color: transparent !important;    
+        border-radius: 10px;
+        border:3px solid transparent !important;
+        margin:0 !important;
+        padding:0 !important;
+        z-index: 2;
+        box-shadow: 0px 0px 10px transparent !important;
+    }
+    .container__personaje .container__img .img__perfil{
+        width: 270px !important;
+        height:270px !important;
+        border-radius: 40% 60% 27% 73% / 76% 46% 54% 24%  !important;
+        box-shadow: 0px 0px 10px #adadad;
+        border: 4px solid white;
+    }
+    .container__personaje .container__text{
+        width: 80% !important;
+        position: relative;
+        z-index: 2;
+        margin:0 40px 0 40px;
+    }
+    .container__personaje .container__text h2{
+        margin-top: 0 !important;
+        border-bottom: 3px solid var(--pink);
+        padding:10px 0;
+        font-size: 35px !important;
+    }
+    .container__personaje .container__text p{
+        line-height: 22px;
+    }
+    .container__consultas{
+        width: 80%;
+        margin:10px auto 40px !important;
+        box-shadow: 0px 0px 10px gray;
+       border:4px solid white;
+        padding:40px 20px !important;
+        border-radius: 10px;
+    }
+    .consultas_sections div{
+        line-height: 22px;
+        width: 95% !important;
+        min-width: 200px;
+        margin:10px;
+    }
+    .consultas_sections div:first-child{
+        border-right: 3px solid transparent !important;
+        padding: 0 0 25px 0 !important;
+        border-bottom: 3px solid var(--pink);
+    }
+    .consultas_sections div:nth-child(2){
+        border-right: 3px solid transparent !important;
+        padding: 25px 0 0 0 !important;
+    }
+    .consultas_sections div{
+        margin:0 !important;
+    }
+}
+@media (max-width:660px) {
+    .card{
+        width: 80% !important;
+        margin:15px 40px ;
+    }
+    .container__cards{
+         margin:0 !important;
+     }
+}
+@media (max-width:512px){
+    .container__personaje{
+        padding-bottom: 0 !important;
+    }
+    .container__personaje .container__text{
+        width: 95% !important;
+        position: relative;
+        z-index: 2;
+        margin:0 15px!important;
+    }
+    .container__personaje--imgs{
+        padding:10px 0 !important;
+    }
+    .card{
+        width: 80% !important;
+        margin:15px 40px ;
+    }
+    .container__cards{
+         margin:0 !important;
+     }
+     .container__consultas {
+        margin:2 auto !important;
+        padding:20px 15px !important; 
+     }
+     .container__consultas  .title{
+        font-size: 30px;
+        color:var(--pink);
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .container__consultas .consultas_sections div h2{
+        font-size: 20px !important;
+    }
+     .consultas_sections div p{
+        font-size:20px !important;
+        width: 100% !important;
+    }
+}

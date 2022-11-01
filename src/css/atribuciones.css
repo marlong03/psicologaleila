@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato&family=Rubik&display=swap');
+
+::-webkit-scrollbar {
+width: 13px;     
+height: 8px;    
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(227, 134, 149);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+@media (max-width:800px) {
+    .container__atribuciones--section{
+        flex-wrap: wrap;
+    }
+    .container__atribuciones--section section{
+        width: 80% !important;
+    }
+    .d-flex{
+        justify-content: center !important;
+    }
+}
+html{
+    background-color: #1c1c1c;
+    padding:40px;
+}
+h1{
+    font-family: 'Fuzzy Bubbles';
+    color:white;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #f57788;
+    text-align: center;
+}
+a{
+    font-family:Arial,sans-serif; 
+    font-family: 'Rubik', sans-serif;
+    color:white;
+}
+.container__atribuciones--section{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.container__atribuciones--section section{
+    padding:20px;
+    width: 45%;
+}
+.viñeta{
+    padding:0 !important;
+    width: 13px;
+    height: 13px;
+    background-color: #f57788;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+.d-flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.volver{
+    color:white;
+    cursor: pointer;
+    
+}
+a:first-child{
+    text-decoration:none;
+
+}

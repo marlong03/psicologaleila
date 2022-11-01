@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato&family=Rubik&display=swap');
+::-webkit-scrollbar {
+    width: 13px;     
+    height: 8px;    
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(227, 134, 149);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+*{
+    font-family: 'Rubik', sans-serif;
+}
+input,p{
+    font-family: 'Rubik', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik', sans-serif;
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+/* MODAL */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:hidden; /* Enable scroll if needed */
+    background-color: #9192948e; /* Black w/ opacity */
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes agrandar {
+    0%{ transform:scale(0);}
+    85%{ transform: scale(1.05);}
+  }
+  .modal-content {
+    background-color: black;
+    margin: 15px auto; /* 15% from the top and centered */
+    padding: 0 10px 10px 10px;
+    border: 5px solid #434343;
+    width: 90%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    animation: agrandar 1s ease;
+  }
+  .container__close{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .close {
+    color: #e38695;
+    /* float: right; */
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 10px 0 0 ;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .container__video--modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__video--modal video {
+    width: 100%;
+    margin:0 !important;
+    border-radius: 10px;
+  }
